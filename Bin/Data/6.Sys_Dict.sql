@@ -1,0 +1,25 @@
+SET   IDENTITY_INSERT   Sys_Dict   ON
+delete from Sys_Dict
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	1	,	'StockItem'	,	'熟料'	,	'熟料（自产）'	,	'S'	,	NULL	,	'0501010003'	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	2	,	'MaterailsItem'	,	'原材料计量单位'	,	'公斤'	,	NULL	,	NULL	,	NULL	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	3	,	'MaterailsItem'	,	'原材料计量单位'	,	'吨'	,	NULL	,	NULL	,	NULL	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	4	,	'MaterailsItem'	,	'原材料计量单位'	,	'车'	,	NULL	,	NULL	,	NULL	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	5	,	'ProInfoItem'	,	'供应商信息项'	,	'邮箱'	,	NULL	,	NULL	,	NULL	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	6	,	'ProInfoItem'	,	'供应商信息项'	,	'邮编'	,	NULL	,	NULL	,	NULL	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	7	,	'ProInfoItem'	,	'供应商信息项'	,	'性别'	,	NULL	,	NULL	,	NULL	,	NULL	,	1	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	8	,	'ProInfoItem'	,	'供应商信息项'	,	'地址'	,	NULL	,	NULL	,	NULL	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	9	,	'PoundWuCha'	,	'散装负误差'	,	'5000'	,	'PoundSanWuChaF'	,	NULL	,	NULL	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	10	,	'PoundWuCha'	,	'袋装正误差'	,	'0.008'	,	'PoundDaiWuChaZ'	,	NULL	,	NULL	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	11	,	'PoundWuCha'	,	'袋装负误差'	,	'0.008'	,	'PoundDaiWuChaF'	,	NULL	,	NULL	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	12	,	'PoundWuCha'	,	'袋装误差时停止业务'	,	'N'	,	'PoundDaiWuChaStop'	,	NULL	,	NULL	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	13	,	'PoundWuCha'	,	'按比例计算误差'	,	'N'	,	'PoundDaiPercent'	,	NULL	,	NULL	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	14	,	'SysParam'	,	'袋装是否过磅'	,	'N'	,	'PoundIFDai'	,	NULL	,	NULL	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	15	,	'SysParam'	,	'备用库支持'	,	'Y'	,	'Uses_BackDB'	,	NULL	,	NULL	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	16	,	'SysParam'	,	'净重误差'	,	'N'	,	'WeightWuCha'	,	10.00000	,	NULL	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	17	,	'SysParam'	,	'系统有效期'	,	'2052-06-04'	,	'SysValidDate'	,	NULL	,	'dd913e592f23cf8157028146d429fdf4'	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	18	,	'SysParam'	,	'车辆进厂超时(分钟)'	,	'20'	,	'InFactTimeOut'	,	NULL	,	NULL	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	19	,	'SysParam'	,	'单提货单控制'	,	'-ST,+SC'	,	'Bill_Single'	,	NULL	,	'ST,单车单单;SC,单卡单单'	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	20	,	'OrderInFact'	,	'工厂可发货订单'	,	'1039,1073,1072'	,	'Factory'	,	NULL	,	'JX01'	,	NULL	,	0	)
+insert   Sys_Dict(D_ID,D_Name,D_Desc,D_Value,D_Memo,D_ParamA,D_ParamB,D_ParamC,D_Index)   values(	21	,	'OrderInFact'	,	'库存可发货订单'	,	NULL	,	'Warehouse'	,	NULL	,	'JX01'	,	NULL	,	0	)
+
+SET   IDENTITY_INSERT   Sys_Dict   OFF

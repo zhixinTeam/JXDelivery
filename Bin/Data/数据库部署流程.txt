@@ -1,0 +1,4 @@
+1、将JXDelivery.mdf数据库附加到SQL Server上
+2、在SQL Server上运行1.DropTables.sql
+3、运行客户端Client.exe
+4、在SQL Server上运行2.Table_Index.sql、3.Important_Data.sql、4.Entity_DataDict.sql、5.Entity.sql、6.Sys_Dict.sql
