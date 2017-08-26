@@ -109,6 +109,7 @@ begin
   FTimeE := Str2DateTime(Date2Str(Now) + ' 00:00:00');
 
   FJBWhere := '';
+  FShadowWeight := -1;
   InitDateRange(Name, FStart, FEnd);
 end;
 
